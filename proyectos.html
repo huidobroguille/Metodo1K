@@ -14,111 +14,136 @@
 <body class="bg-light">
 
     <!-- Encabezado -->
-<style>
-    header nav a {
-        opacity: 0.6;
-        transition: opacity 0.9s ease;
-    }
+    <style>
+        header nav a {
+            opacity: 0.6;
+            transition: opacity 0.9s ease;
+        }
 
-    header nav a:hover {
-        opacity: 15;
-    }
-</style>
-<header class="bg-dark text-white py-5">
-    
-<div class="container-fluid">
+        header nav a:hover {
+            opacity: 15;
+        }
+    </style>
+    <header class="bg-dark text-white py-5">
 
-    <!-- Contenido alineado -->
-    <div style="margin-left: 18%;">
+        <div class="container-fluid">
 
-        <!-- Presentación -->
-        <h1 class="display-4 fw-bold">
-            Candidatos a MVP
-        </h1>
+            <!-- Contenido alineado -->
+            <div style="margin-left: 18%;">
 
-        <p class="lead">
-            Si llegaste hasta acá, sigue hasta el final.
-        </p>
+                <!-- Presentación -->
+                <h1 class="display-4 fw-bold">
+                    Candidatos a MVP
+                </h1>
 
-        <!-- Navegación -->
-        <nav class="d-flex gap-4 mt-4">
-            <a href="index.html"
-               class="text-white text-decoration-none fw-semibold">
-                Inicio
-            </a>
+                <p class="lead">
+                    Si llegaste hasta acá, sigue hasta el final.
+                </p>
 
-            <a href="metodo.html"
-               class="text-white text-decoration-none fw-semibold">
-                Metodos
-            </a>
-        </nav>
+                <!-- Navegación -->
+                <nav class="d-flex gap-4 mt-4">
+                    <a href="index.html" class="text-white text-decoration-none fw-semibold">
+                        Inicio
+                    </a>
 
-    </div>
+                    <a href="metodo.html" class="text-white text-decoration-none fw-semibold">
+                        Metodos
+                    </a>
+                </nav>
 
-</div>
-</header>
+            </div>
 
-    <!-- Presentación -->
+        </div>
+    </header>
+
+    <!-- Main -->
     <main class="container py-5">
-
+        <!-- Presentacion -->
         <section class="mb-5">
 
             <p class="lead">
-                Aqui detallare proyectos que surgen de laboratorio, 
+                Aqui detallare proyectos que surgen de laboratorio,
                 como empieza a tomar forma un MVP , desde hipotesis de negocio
                 hasta desarrollo extremo, sin perder gestion o calidad.
             </p>
 
         </section>
-
-
         <!-- Áreas -->
         <section class="py-5">
-
-            <h2 class="text-center mb-4">Áreas que elegí profundizar</h2>
-
-            <div class="row g-4">
-
-                <div class="col-md-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
-                            <h3 class="card-title">
-                                Desarrollo de software
-                            </h3>
-
+                            <div class="text-center">
+                                <img src="images/flamingtext-2284871286.png" alt="onekey logo" class="img-fluid">
+                            </div>
                             <p class="card-text">
-                                Me motiva materializar ideas construyendo soluciones innovando.
+                                Encriptacion y Desencriptacion de mensajes.<br>
+                                Proteccion de datos sensibles.<br>
+                                Compartir simple con quien quieras, sin perder privacidad.
                             </p>
                         </div>
                     </div>
                 </div>
-</div>
-<div class="row g-4">
+            </div>
+        </section>
+
+
+        <!-- Desglose -->
+        <section class="mb-5">
+
+            <h2 class="text-center mb-4">Que pasa si observan o escuchan tus mensajes?</h2>
+
+        </section>
+        <section class="container my-5">
+            <div class="row g-3">
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
-                            <h3 class="card-title">
-                                Análisis de datos
-                            </h3>
-
+                            <h5 class="card-title">Prevenir</h5>
                             <p class="card-text">
-                                Prefiero validar con procedimientos estadisticos sin improvizar.
+                                Quieres enviar tu numero de transaccion por un envio de dinero y alguien lo intercepta
+                                o alguien simplemente lo ve.<br>
+                                Envia UNO KEY, el receptor lo vera solo al desencriptarlo. 
                             </p>
+
+                            <div class="text-center">
+                                <img src="images/primeraPantalla.png" alt="onekey logo" class="img-fluid w-50">
+                            </div>
                         </div>
                     </div>
                 </div>
-</div>
-<div class="row g-4">
+
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body">
-                            <h3 class="card-title">
-                                Gestión de proyectos
-                            </h3>
-
+                            <h5 class="card-title">Proteger</h5>
                             <p class="card-text">
-                                Gestionar con una vision holistica , agrega valor sin dudas.
+                                Quieres mantener tus secretos fuera del alcance de los curiosos?
+                                Envia UNO KEY, el mensaje se envia encriptado, inentendible, ultraseguro.
                             </p>
+
+                            <div class="text-center">
+                                <img src="images/segundaPantalla.png" alt="onekey logo" class="img-fluid w-50">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Simple</h5>
+                            <p class="card-text">
+                                Escribes, encripta, comparte.<br>
+                                Copia, pega, desencripta.
+                            </p>
+
+                            <div class="text-center">
+                                <video autoplay muted loop playsinline width="50%">
+                                    <source src="images/grabacionPantalla.mp4" type="video/mp4">
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -127,130 +152,52 @@
 
         </section>
 
-
-            <!-- Desglose -->
+        <!-- Desglose -->
         <section class="mb-5">
 
-            <h2 class="text-center mb-4">Mi Resumen</h2>
+            <h2 class="text-center mb-4">Realmente necesitamos esto?</h2>
 
             <p>
-                Gran parte de la práctica ,
-                experiencia y conocimientos, han sido adquiridos, tanto trabajando
-                en proyectos de gran presupuesto y planificación de larga
-                duración, como en startups extremadamente ágiles y de
-                inversión acotada. Tambien ampliar y profundizar es primordial
-                para alcanzar eficiencia en todas dimensiones.
+                La hipótesis de negocio parte de la existencia de una necesidad de comunicación privada
+                y segura en un entorno donde personas y organizaciones intercambian información sensible
+                a través de plataformas digitales.<br>
+                La propuesta consiste en desarrollar una aplicación
+                de mensajería cuyo principal elemento diferenciador sea la protección de las conversaciones
+                mediante cifrado, ofreciendo una alternativa centrada en la privacidad sin convertir la seguridad
+                en una barrera para el uso cotidiano.<br>
+                El proyecto se plantea inicialmente mediante un MVP estimado
+                en tres meses, cuyo propósito será comprobar si existe una demanda real por este tipo de solución
+                y si los usuarios están dispuestos no solo a probarla, sino también a incorporarla de manera
+                habitual a sus comunicaciones.<br>
+                La hipótesis central sostiene que, si la aplicación ofrece
+                una experiencia suficientemente simple, confiable y segura, será capaz de atraer usuarios,
+                generar adopción y establecer un comportamiento recurrente de comunicación.<br>
+                El objetivo de esta primera etapa no es demostrar únicamente que la tecnología funciona,
+                sino comprobar que existe una oportunidad de negocio alrededor de ella.<br>
+                Si el MVP demuestra una respuesta favorable del mercado, se plantea avanzar
+                hacia un MMP durante una segunda etapa de desarrollo, en la cual,
+                además de ampliar y perfeccionar el producto, se estudiará la viabilidad
+                de implementar un modelo de monetización basado en un cobro mínimo por mensaje.<br>
+                Este mecanismo permitiría explorar si los usuarios perciben
+                suficiente valor en la privacidad y seguridad ofrecidas como
+                para aceptar un costo reducido asociado al uso del servicio,
+                manteniendo como premisa que el precio no debe convertirse en
+                una barrera significativa para la adopción.<br>
+                De esta forma,
+                el MVP permitirá validar inicialmente la propuesta y reducir
+                la incertidumbre sobre su aceptación, mientras que el MMP
+                permitirá profundizar en su evolución, escalabilidad y
+                potencial de generación de ingresos.<br>
+                La hipótesis de inversión
+                es que una solución de mensajería enfocada en privacidad puede
+                transformar una necesidad existente en una oportunidad empresarial
+                escalable, siempre que consiga combinar seguridad, facilidad de uso,
+                adopción sostenida y un modelo económico capaz de generar valor tanto
+                para los usuarios como para el negocio.
             </p>
 
         </section>
-<section class="container my-5">
-
-    <div class="row g-3">
-
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">CV Desarrollo de Software</h5>
-                    <p class="card-text">
-                        Construccion de soluciones
-                        utilizando diferentes tecnologías
-                         y librerias.
-                    </p>
-
-                    <a href="descargables/AndroidDS_Guille-Huidobro_26_esp_A.pdf"
-                       download
-                       class="btn btn-primary">
-                        Descargar CV DEV
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">CV Data Analytics</h5>
-                    <p class="card-text">
-                       Transformación, análisis y visualización de datos para apoyar la toma de decisiones. 
-                    </p>
-
-                    <a href="descargables/DATA_CV_2026.pdf"
-                       download
-                       class="btn btn-primary">
-                        Descargar CV DATA
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">Certificados</h5>
-                    <p class="card-text">
-                        Documentos y material complementario, certificados, insignias.
-                    </p>
-
-                    <a href="descargables/SPP_V18_CA.pdf"
-                       download
-                       class="btn btn-primary">
-                        Curso UC
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!--Tecnologias-->
-<section class="container my-5">
-
-    <h2 class="text-center mb-4">Herramientas y Tecnologías</h2>
-
-    <div class="mb-4">
-        <h4 class="mb-3">Desarrollo</h4>
-
-        <span class="badge text-bg-primary me-2 mb-2">Android SDK</span>
-        <span class="badge text-bg-primary me-2 mb-2">Kotlin</span>
-        <span class="badge text-bg-primary me-2 mb-2">Jetpack Compose</span>
-            <span class="badge text-bg-primary me-2 mb-2">POO</span>
-                    <span class="badge text-bg-primary me-2 mb-2">SOLID</span>
-    </div>
-
-    <div class="mb-4">
-        <h4 class="mb-3">Analisis Estadistico</h4>
-
-        <span class="badge text-bg-success me-2 mb-2">SQL</span>
-        <span class="badge text-bg-success me-2 mb-2">Excel</span>
-        <span class="badge text-bg-success me-2 mb-2">Power Query</span>
-        <span class="badge text-bg-success me-2 mb-2">Power BI</span>
-        <span class="badge text-bg-success me-2 mb-2">DAX</span>
-    </div>
-
-    <div class="mb-4">
-        <h4 class="mb-3">Gestión</h4>
-
-        <span class="badge text-bg-dark me-2 mb-2">Scrum</span>
-        <span class="badge text-bg-dark me-2 mb-2">PMBOK</span>
-        <span class="badge text-bg-dark me-2 mb-2">Jira</span>
-        <span class="badge text-bg-dark me-2 mb-2">KPI</span>
-        <span class="badge text-bg-dark me-2 mb-2">Lean</span>       
-    </div>
-
-    <div class="mb-4">
-        <h4 class="mb-3">Algo más</h4>
-
-        <span class="badge text-bg-warning me-2 mb-2">Arq. CLEAN</span>
-        <span class="badge text-bg-warning me-2 mb-2">Regresion Lineal</span>
-        <span class="badge text-bg-warning me-2 mb-2">Gestion del Backlog</span>
-    </div>
-
-</section>
     </main>
-
-
     <!-- Pie -->
     <footer class="bg-dark text-white text-center py-4">
 
