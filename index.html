@@ -14,20 +14,49 @@
 <body class="bg-light">
 
     <!-- Encabezado -->
-    <header class="bg-dark text-white py-5">
-        <div class="container">
+<style>
+    header nav a {
+        opacity: 0.6;
+        transition: opacity 0.9s ease;
+    }
 
-            <h1 class="display-4 fw-bold">
-                Soy Guillermo Huidobro
-            </h1>
+    header nav a:hover {
+        opacity: 15;
+    }
+</style>
+<header class="bg-dark text-white py-5">
+    
+<div class="container-fluid">
 
-            <p class="lead">
-                Si llegaste hasta acá, sigue hasta el final.
-            </p>
+    <!-- Contenido alineado -->
+    <div style="margin-left: 18%;">
 
-        </div>
-    </header>
+        <!-- Presentación -->
+        <h1 class="display-4 fw-bold">
+            Soy Guillermo Huidobro
+        </h1>
 
+        <p class="lead">
+            Si llegaste hasta acá, sigue hasta el final.
+        </p>
+
+        <!-- Navegación -->
+        <nav class="d-flex gap-4 mt-4">
+            <a href="metodo.html"
+               class="text-white text-decoration-none fw-semibold">
+                Metodos
+            </a>
+
+            <a href="proyectos.html"
+               class="text-white text-decoration-none fw-semibold">
+                Proyectos
+            </a>
+        </nav>
+
+    </div>
+
+</div>
+</header>
 
     <!-- Presentación -->
     <main class="container py-5">
@@ -35,10 +64,9 @@
         <section class="mb-5">
 
             <p class="lead">
-                En este espacio presento las técnicas, herramientas y
-                procedimientos que utilizo para desarrollar mis proyectos,
-                y cómo los utilizo para analizar, construir y gestionar
-                soluciones.
+                Aquí te resumo a grandes rasgos 
+                cuales son mis areas de trabajo , que elijo y que potencio.
+                Un marco de trabajo basado en experiencia, eleccion y mejora continua.
             </p>
 
         </section>
@@ -216,7 +244,7 @@
     </div>
 
     <div class="mb-4">
-        <h4 class="mb-3">Analisis</h4>
+        <h4 class="mb-3">Analisis Estadistico</h4>
 
         <span class="badge text-bg-success me-2 mb-2">SQL</span>
         <span class="badge text-bg-success me-2 mb-2">Excel</span>
@@ -238,7 +266,7 @@
     <div class="mb-4">
         <h4 class="mb-3">Algo más</h4>
 
-        <span class="badge text-bg-warning me-2 mb-2">CLEAN</span>
+        <span class="badge text-bg-warning me-2 mb-2">Arq. CLEAN</span>
         <span class="badge text-bg-warning me-2 mb-2">Regresion Lineal</span>
         <span class="badge text-bg-warning me-2 mb-2">Gestion del Backlog</span>
     </div>
